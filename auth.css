@@ -1,0 +1,107 @@
+/* Body Styling */
+body {
+    background: linear-gradient(to top right, #ebf5fb, #aed6f1); /* Smooth blue gradient */
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0px;
+    color: #34495e; /* Slate gray for readable contrast */
+}
+
+/* Centering the Container */
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Header Styling */
+header {
+    background-color: #1a5276; /* Navy Blue */
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(44, 62, 80, 0.2);
+    padding: 1.5rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(44, 62, 80, 0.1); /* Gentle shadow */
+    background: #ffffff;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.card h3 {
+    color: #1a5276;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Form Styling */
+input.form-control {
+    border: 1px solid #ccd6dd; /* Light gray border */
+    border-radius: 8px;
+    padding: 0.8rem;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input.form-control:focus {
+    border-color: #2980b9; /* Calming blue focus */
+    box-shadow: 0 0 8px rgba(41, 128, 185, 0.4); /* Glow on focus */
+    outline: none;
+}
+
+/* Button Styling */
+#loginButton {
+    background-color: #2980b9; /* Calming professional blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+    width: 100%;
+}
+
+#loginButton:hover {
+    background-color: #1a5276; /* Navy blue on hover */
+    transform: scale(1.05);
+}
+
+
+
+/* Footer Styling */
+footer {
+    background-color: #f5f5f5;
+    /* Subtle light background */
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+    /* Clean border on top */
+    color: #002855;
+    /* Navy Blue for professional tone */
+    font-size: 1rem;
+}
+
+footer i {
+    color: #1d4e89;
+    /* Royal Blue for icons */
+    margin-right: 5px;
+}
+
+footer strong {
+    color: #002855;
+    /* Bold and navy for names and titles */
+}
