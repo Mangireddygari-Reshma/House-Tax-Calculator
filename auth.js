@@ -29,5 +29,5 @@ document.getElementById("loginButton").addEventListener("click", function() {
 
 // Redirect to index.html
 function redirectToIndex() {
-    window.location.href = "index.html"; // Redirects the user to index.html
+    window.location.href = "dashboard.html"; // Redirects the user to index.html
 }
