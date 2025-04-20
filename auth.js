@@ -1,7 +1,7 @@
 // Dummy credentials for demonstration purposes
 const credentials = {
-    username: "admin",
-    password: "password123"
+    username: "Admin",
+    password: "password@123"
 };
 
 window.onload = function() {
