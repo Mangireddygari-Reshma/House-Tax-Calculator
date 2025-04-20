@@ -1,105 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>House Tax Calculator</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>Redirecting...</title>
+    <script>
+        window.location.href = "auth.html";
+    </script>
 </head>
-
 <body>
-    <div class="container">
-        <h1 class="text-center mb-5"><i class="bi bi-calculator-fill"></i> House Tax Calculator</h1>
-
-        <div class="row g-4">
-            <div class="col-md-6 col-xl-4">
-                <div class="card p-4">
-                    <h5 class="section-title"><i class="bi bi-house-door-fill"></i> Plot Details</h5>
-                    <div class="mb-3">
-                        <label>Plot Length (feet)</label>
-                        <input type="number" class="form-control" id="plotLength" placeholder="↓ Enter length">
-                    </div>
-                    <div class="mb-3">
-                        <label>Plot Breadth (feet)</label>
-                        <input type="number" class="form-control" id="plotBreadth" placeholder="↓ Enter breadth">
-                    </div>
-                    <div class="mb-3">
-                        <label>Cost per Square Yard</label>
-                        <input type="number" class="form-control" id="costPerYard" placeholder="₹ Enter cost per sq. yard">
-                    </div>
-                    <h6>Plot Area: <span id="plotArea"> 0</span> sq. yards</h6>
-                    <h6>Plot Cost: ₹<span id="plotCost"> 0</span></h6>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-xl-4">
-                <div class="card p-4">
-                    <h5 class="section-title"><i class="bi bi-house-heart-fill"></i> Plinth Details</h5>
-                    <div class="mb-3">
-                        <label>Plinth Length (feet)</label>
-                        <input type="number" class="form-control" id="plinthLength" placeholder="↓ Enter length">
-                    </div>
-                    <div class="mb-3">
-                        <label>Plinth Breadth (feet)</label>
-                        <input type="number" class="form-control" id="plinthBreadth" placeholder="↓ Enter breadth">
-                    </div>
-                    <div class="mb-3">
-                        <label>Cost per Square Foot</label>
-                        <input type="number" class="form-control" id="costPerFt" placeholder="₹ Enter cost per sq. foot">
-                    </div>
-                    <h6>Plinth Area: <span id="plinthArea"> 0</span> sq. feet</h6>
-                    <h6>Plinth Cost: ₹<span id="plinthCost"> 0</span></h6>
-                </div>
-            </div>
-
-            <div class="col-xl-4">
-                <div class="card p-4">
-                    <h5 class="section-title"><i class="bi bi-percent"></i> House Tax Percentage</h5>
-                    <input type="number" class="form-control mb-3" id="taxPercent" placeholder="% Enter tax percentage">
-
-                    <div class="row">
-                        <div class="col-md-6 col-xl-12">
-                            <h6 class="section-title"><i class="bi bi-cash-coin"></i> Cost Summary</h6>
-                            <p>Plot Cost: ₹<span id="sumPlotCost">0</span></p>
-                            <p>Plinth Cost: ₹<span id="sumPlinthCost">0</span></p>
-                            <h6 class="section-title"><strong>Total House Cost: ₹<span id="totalCost">0</span></strong></h6>
-                        </div>
-                        <hr>
-                        <div class="col-md-6 col-xl-12">
-                            <h6 class="section-title"><i class="bi bi-receipt"></i> Tax Breakdown</h6>
-
-                            <div class="d-flex justify-content-between"><span>House Tax:</span><span>₹<span id="houseTax">0</span></span></div>
-                            <div class="d-flex justify-content-between"><span>Water Tax (20%):</span><span>₹<span id="waterTax">0</span></span></div>
-                            <div class="d-flex justify-content-between"><span>Drainage Tax (10%):</span><span>₹<span id="drainageTax">0</span></span></div>
-                            <div class="d-flex justify-content-between"><span>Lightning Tax (10%):</span><span>₹<span id="lightningTax">0</span></span></div>
-                            <div class="d-flex justify-content-between"><span>Library Tax (8%):</span><span>₹<span id="libraryTax">0</span></span></div>
-                            <div class="d-flex justify-content-between"><span>Sports Tax (3%):</span><span>₹<span id="sportsTax">0</span></span></div>
-                            <div class="d-flex justify-content-between"><span>Fire Tax (1%):</span><span>₹<span id="fireTax">0</span></span></div>
-
-                            <hr class="my-2">
-
-                            <div class="d-flex justify-content-between fw-bold">
-                                <span>Total Tax:</span>
-                                <span>₹<span id="totalTaxes">0</span></span>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <p>Redirecting to the authorization page...</p>
 </body>
-<footer class="text-center mt-5 bg-light py-3 border-top">
-    <p>
-        <i class="bi bi-code-slash"></i> <strong>Mangireddygari Reshma</strong> – Designed and developed with dedication <br>
-        <i class="bi bi-people-fill"></i> For Supporting the welfare of <strong>Grampanchayat</strong> and assisting the <strong>Panchayat Secretary</strong>.
-    </p>
-</footer>
-
 </html>
