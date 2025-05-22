@@ -1,7 +1,6 @@
 // Dummy credentials for demonstration purposes
 const credentials = {
-    username: "Admin",
-    password: "password@123"
+    password: "123@admin"
 };
 
 window.onload = function() {
@@ -14,11 +13,10 @@ window.onload = function() {
 
 // Event listener for the Login button
 document.getElementById("loginButton").addEventListener("click", function() {
-    const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
     // Check credentials
-    if (username === credentials.username && password === credentials.password) {
+    if ( password === credentials.password) {
         // Save the session
         sessionStorage.setItem("loggedInUser", username);
         redirectToIndex();
