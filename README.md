@@ -61,8 +61,4 @@ House-Tax-Calculator/
 **Reshma** – Cybersecurity researcher & full-stack developer  
 Focused on civic-tech, explainable systems, and user-friendly design.
 
----
 
-## 📄 License
-
-Open-source for educational and non-commercial use.
