@@ -86,3 +86,6 @@ function calculate() {
 const allInputs = document.querySelectorAll('input');
 allInputs.forEach(input => input.addEventListener('input', calculate));
 
+const allSelects = document.querySelectorAll('select');
+allSelects.forEach(select => select.addEventListener('change', calculate));
+
