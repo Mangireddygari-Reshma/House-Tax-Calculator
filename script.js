@@ -25,6 +25,12 @@ function calculate() {
 
     const taxPercent = parseFloat(document.getElementById('taxPercent').value) || 0;
 
+    const waterTaxRate = parseFloat(document.getElementById('waterTaxRate').value) || 0;
+    const drainageTaxRate = parseFloat(document.getElementById('drainageTaxRate').value) || 0;
+    const lightningTaxRate = parseFloat(document.getElementById('lightningTaxRate').value) || 0;
+
+
+
     const plotArea = (plotLength * plotBreadth) / 9;
     const plinthArea = plinthLength * plinthBreadth;
 
@@ -34,9 +40,10 @@ function calculate() {
 
     const houseTax = Math.round((totalCost * taxPercent) / 100);
 
-    const waterTax = Math.round(houseTax * 0.2);
-    const drainageTax = Math.round(houseTax * 0.1);
-    const lightningTax = Math.round(houseTax * 0.1);
+    const waterTax = Math.round(houseTax * (waterTaxRate / 100));
+    const drainageTax = Math.round(houseTax * (drainageTaxRate / 100));
+    const lightningTax = Math.round(houseTax * (lightningTaxRate / 100));
+
     const libraryTax = Math.round(houseTax * 0.08);
     const sportsTax = Math.round(houseTax * 0.03);
     const fireTax = Math.round(houseTax * 0.01);
